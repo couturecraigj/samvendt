@@ -1,11 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Sam Vendt`,
-    description: `Christ. Music. Worship.`,
+    siteTitle: `Sam Vendt`,
+    siteDescription: `Christ. Music. Worship.`,
     author: `craigcouture`,
   },
   plugins: [
+    `gatsby-plugin-mdx`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-typescript`,
+    `gatsby-plugin-emotion`,
+    `gatsby-plugin-theme-ui`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
