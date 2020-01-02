@@ -1,8 +1,11 @@
 module.exports = {
   siteMetadata: {
     siteTitle: `Sam Vendt`,
+    siteTitleAlt: `Sam Vendt`,
     siteDescription: `Christ. Music. Worship.`,
-    author: `craigcouture`,
+    siteLanguage: 'English',
+    siteUrl: 'Nowhereyet.com',
+    author: `Sam Vendt`,
   },
   plugins: [
     `gatsby-plugin-mdx`,
