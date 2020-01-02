@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
     siteTitle: `Sam Vendt`,
-    siteTitleAlt: `Sam Vendt`,
+    siteTitleAlt: 'Sam Vendt',
+    siteUrl: 'https://eager-roentgen-1afac6.netlify.com/',
+    siteLanguage: 'en-US',
     siteDescription: `Christ. Music. Worship.`,
-    siteLanguage: 'English',
-    siteUrl: 'Nowhereyet.com',
     author: `Sam Vendt`,
   },
   plugins: [
